@@ -4,7 +4,7 @@ permissions: write-all              # 쓰기 권한 부여
 
 on: 
   schedule:
-    - cron: '*/5 * * * *'             # 매일 00:00 UTC에 스케줄 설정
+    - cron: '0 0 * * *'             # 매일 00:00 UTC에 스케줄 설정
   workflow_dispatch:                # 수동으로 트리거
 
 jobs:
